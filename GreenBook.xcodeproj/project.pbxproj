@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1181D419267EE9D7007C1ED6 /* GreenBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1181D418267EE9D7007C1ED6 /* GreenBookApp.swift */; };
+		1181D41B267EE9D7007C1ED6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1181D41A267EE9D7007C1ED6 /* ContentView.swift */; };
+		1181D41D267EE9DA007C1ED6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1181D41C267EE9DA007C1ED6 /* Assets.xcassets */; };
+		1181D420267EE9DA007C1ED6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1181D41F267EE9DA007C1ED6 /* Preview Assets.xcassets */; };
+		1181D422267EE9DA007C1ED6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1181D421267EE9DA007C1ED6 /* Persistence.swift */; };
+		1181D425267EE9DA007C1ED6 /* GreenBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1181D423267EE9DA007C1ED6 /* GreenBook.xcdatamodeld */; };
+		1181D430267EE9DA007C1ED6 /* GreenBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1181D42F267EE9DA007C1ED6 /* GreenBookTests.swift */; };
+		1181D43B267EE9DA007C1ED6 /* GreenBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1181D43A267EE9DA007C1ED6 /* GreenBookUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1181D42C267EE9DA007C1ED6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1181D40D267EE9D7007C1ED6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1181D414267EE9D7007C1ED6;
+			remoteInfo = GreenBook;
+		};
+		1181D437267EE9DA007C1ED6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1181D40D267EE9D7007C1ED6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1181D414267EE9D7007C1ED6;
+			remoteInfo = GreenBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1181D415267EE9D7007C1ED6 /* GreenBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1181D418267EE9D7007C1ED6 /* GreenBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenBookApp.swift; sourceTree = "<group>"; };
+		1181D41A267EE9D7007C1ED6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1181D41C267EE9DA007C1ED6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1181D41F267EE9DA007C1ED6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1181D421267EE9DA007C1ED6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		1181D424267EE9DA007C1ED6 /* GreenBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GreenBook.xcdatamodel; sourceTree = "<group>"; };
+		1181D426267EE9DA007C1ED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1181D42B267EE9DA007C1ED6 /* GreenBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1181D42F267EE9DA007C1ED6 /* GreenBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenBookTests.swift; sourceTree = "<group>"; };
+		1181D431267EE9DA007C1ED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1181D436267EE9DA007C1ED6 /* GreenBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1181D43A267EE9DA007C1ED6 /* GreenBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenBookUITests.swift; sourceTree = "<group>"; };
+		1181D43C267EE9DA007C1ED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1181D412267EE9D7007C1ED6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1181D428267EE9DA007C1ED6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1181D433267EE9DA007C1ED6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1181D40C267EE9D7007C1ED6 = {
+			isa = PBXGroup;
+			children = (
+				1181D417267EE9D7007C1ED6 /* GreenBook */,
+				1181D42E267EE9DA007C1ED6 /* GreenBookTests */,
+				1181D439267EE9DA007C1ED6 /* GreenBookUITests */,
+				1181D416267EE9D7007C1ED6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1181D416267EE9D7007C1ED6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1181D415267EE9D7007C1ED6 /* GreenBook.app */,
+				1181D42B267EE9DA007C1ED6 /* GreenBookTests.xctest */,
+				1181D436267EE9DA007C1ED6 /* GreenBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1181D417267EE9D7007C1ED6 /* GreenBook */ = {
+			isa = PBXGroup;
+			children = (
+				1181D418267EE9D7007C1ED6 /* GreenBookApp.swift */,
+				1181D41A267EE9D7007C1ED6 /* ContentView.swift */,
+				1181D41C267EE9DA007C1ED6 /* Assets.xcassets */,
+				1181D421267EE9DA007C1ED6 /* Persistence.swift */,
+				1181D426267EE9DA007C1ED6 /* Info.plist */,
+				1181D423267EE9DA007C1ED6 /* GreenBook.xcdatamodeld */,
+				1181D41E267EE9DA007C1ED6 /* Preview Content */,
+			);
+			path = GreenBook;
+			sourceTree = "<group>";
+		};
+		1181D41E267EE9DA007C1ED6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1181D41F267EE9DA007C1ED6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1181D42E267EE9DA007C1ED6 /* GreenBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				1181D42F267EE9DA007C1ED6 /* GreenBookTests.swift */,
+				1181D431267EE9DA007C1ED6 /* Info.plist */,
+			);
+			path = GreenBookTests;
+			sourceTree = "<group>";
+		};
+		1181D439267EE9DA007C1ED6 /* GreenBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1181D43A267EE9DA007C1ED6 /* GreenBookUITests.swift */,
+				1181D43C267EE9DA007C1ED6 /* Info.plist */,
+			);
+			path = GreenBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1181D414267EE9D7007C1ED6 /* GreenBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1181D43F267EE9DA007C1ED6 /* Build configuration list for PBXNativeTarget "GreenBook" */;
+			buildPhases = (
+				1181D411267EE9D7007C1ED6 /* Sources */,
+				1181D412267EE9D7007C1ED6 /* Frameworks */,
+				1181D413267EE9D7007C1ED6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreenBook;
+			productName = GreenBook;
+			productReference = 1181D415267EE9D7007C1ED6 /* GreenBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1181D42A267EE9DA007C1ED6 /* GreenBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1181D442267EE9DA007C1ED6 /* Build configuration list for PBXNativeTarget "GreenBookTests" */;
+			buildPhases = (
+				1181D427267EE9DA007C1ED6 /* Sources */,
+				1181D428267EE9DA007C1ED6 /* Frameworks */,
+				1181D429267EE9DA007C1ED6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1181D42D267EE9DA007C1ED6 /* PBXTargetDependency */,
+			);
+			name = GreenBookTests;
+			productName = GreenBookTests;
+			productReference = 1181D42B267EE9DA007C1ED6 /* GreenBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1181D435267EE9DA007C1ED6 /* GreenBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1181D445267EE9DA007C1ED6 /* Build configuration list for PBXNativeTarget "GreenBookUITests" */;
+			buildPhases = (
+				1181D432267EE9DA007C1ED6 /* Sources */,
+				1181D433267EE9DA007C1ED6 /* Frameworks */,
+				1181D434267EE9DA007C1ED6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1181D438267EE9DA007C1ED6 /* PBXTargetDependency */,
+			);
+			name = GreenBookUITests;
+			productName = GreenBookUITests;
+			productReference = 1181D436267EE9DA007C1ED6 /* GreenBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1181D40D267EE9D7007C1ED6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					1181D414267EE9D7007C1ED6 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					1181D42A267EE9DA007C1ED6 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 1181D414267EE9D7007C1ED6;
+					};
+					1181D435267EE9DA007C1ED6 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 1181D414267EE9D7007C1ED6;
+					};
+				};
+			};
+			buildConfigurationList = 1181D410267EE9D7007C1ED6 /* Build configuration list for PBXProject "GreenBook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1181D40C267EE9D7007C1ED6;
+			productRefGroup = 1181D416267EE9D7007C1ED6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1181D414267EE9D7007C1ED6 /* GreenBook */,
+				1181D42A267EE9DA007C1ED6 /* GreenBookTests */,
+				1181D435267EE9DA007C1ED6 /* GreenBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1181D413267EE9D7007C1ED6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1181D420267EE9DA007C1ED6 /* Preview Assets.xcassets in Resources */,
+				1181D41D267EE9DA007C1ED6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1181D429267EE9DA007C1ED6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1181D434267EE9DA007C1ED6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1181D411267EE9D7007C1ED6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1181D422267EE9DA007C1ED6 /* Persistence.swift in Sources */,
+				1181D41B267EE9D7007C1ED6 /* ContentView.swift in Sources */,
+				1181D425267EE9DA007C1ED6 /* GreenBook.xcdatamodeld in Sources */,
+				1181D419267EE9D7007C1ED6 /* GreenBookApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1181D427267EE9DA007C1ED6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1181D430267EE9DA007C1ED6 /* GreenBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1181D432267EE9DA007C1ED6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1181D43B267EE9DA007C1ED6 /* GreenBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1181D42D267EE9DA007C1ED6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1181D414267EE9D7007C1ED6 /* GreenBook */;
+			targetProxy = 1181D42C267EE9DA007C1ED6 /* PBXContainerItemProxy */;
+		};
+		1181D438267EE9DA007C1ED6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1181D414267EE9D7007C1ED6 /* GreenBook */;
+			targetProxy = 1181D437267EE9DA007C1ED6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1181D43D267EE9DA007C1ED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1181D43E267EE9DA007C1ED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1181D440267EE9DA007C1ED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GreenBook/Preview Content\"";
+				DEVELOPMENT_TEAM = W73MVQ986N;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GreenBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wrpoets.GreenBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1181D441267EE9DA007C1ED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GreenBook/Preview Content\"";
+				DEVELOPMENT_TEAM = W73MVQ986N;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GreenBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wrpoets.GreenBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1181D443267EE9DA007C1ED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W73MVQ986N;
+				INFOPLIST_FILE = GreenBookTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wrpoets.GreenBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreenBook.app/GreenBook";
+			};
+			name = Debug;
+		};
+		1181D444267EE9DA007C1ED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W73MVQ986N;
+				INFOPLIST_FILE = GreenBookTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wrpoets.GreenBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreenBook.app/GreenBook";
+			};
+			name = Release;
+		};
+		1181D446267EE9DA007C1ED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W73MVQ986N;
+				INFOPLIST_FILE = GreenBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wrpoets.GreenBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GreenBook;
+			};
+			name = Debug;
+		};
+		1181D447267EE9DA007C1ED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W73MVQ986N;
+				INFOPLIST_FILE = GreenBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wrpoets.GreenBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GreenBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1181D410267EE9D7007C1ED6 /* Build configuration list for PBXProject "GreenBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1181D43D267EE9DA007C1ED6 /* Debug */,
+				1181D43E267EE9DA007C1ED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1181D43F267EE9DA007C1ED6 /* Build configuration list for PBXNativeTarget "GreenBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1181D440267EE9DA007C1ED6 /* Debug */,
+				1181D441267EE9DA007C1ED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1181D442267EE9DA007C1ED6 /* Build configuration list for PBXNativeTarget "GreenBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1181D443267EE9DA007C1ED6 /* Debug */,
+				1181D444267EE9DA007C1ED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1181D445267EE9DA007C1ED6 /* Build configuration list for PBXNativeTarget "GreenBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1181D446267EE9DA007C1ED6 /* Debug */,
+				1181D447267EE9DA007C1ED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1181D423267EE9DA007C1ED6 /* GreenBook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1181D424267EE9DA007C1ED6 /* GreenBook.xcdatamodel */,
+			);
+			currentVersion = 1181D424267EE9DA007C1ED6 /* GreenBook.xcdatamodel */;
+			path = GreenBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1181D40D267EE9D7007C1ED6 /* Project object */;
+}
