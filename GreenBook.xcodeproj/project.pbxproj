@@ -15,6 +15,11 @@
 		1181D425267EE9DA007C1ED6 /* GreenBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1181D423267EE9DA007C1ED6 /* GreenBook.xcdatamodeld */; };
 		1181D430267EE9DA007C1ED6 /* GreenBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1181D42F267EE9DA007C1ED6 /* GreenBookTests.swift */; };
 		1181D43B267EE9DA007C1ED6 /* GreenBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1181D43A267EE9DA007C1ED6 /* GreenBookUITests.swift */; };
+		11C9DE382682D1970017512C /* GreenbookCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C9DE372682D1970017512C /* GreenbookCardView.swift */; };
+		11C9DE3B2682DE5B0017512C /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11C9DE392682DE5B0017512C /* Rubik-Medium.ttf */; };
+		11C9DE3C2682DE5B0017512C /* Solway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11C9DE3A2682DE5B0017512C /* Solway-Regular.ttf */; };
+		11C9DE3E2682E37A0017512C /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C9DE3D2682E37A0017512C /* StartButtonView.swift */; };
+		11C9DE402682E8340017512C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C9DE3F2682E8340017512C /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		1181D436267EE9DA007C1ED6 /* GreenBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1181D43A267EE9DA007C1ED6 /* GreenBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenBookUITests.swift; sourceTree = "<group>"; };
 		1181D43C267EE9DA007C1ED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11C9DE372682D1970017512C /* GreenbookCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenbookCardView.swift; sourceTree = "<group>"; };
+		11C9DE392682DE5B0017512C /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		11C9DE3A2682DE5B0017512C /* Solway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Solway-Regular.ttf"; sourceTree = "<group>"; };
+		11C9DE3D2682E37A0017512C /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
+		11C9DE3F2682E8340017512C /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +109,14 @@
 		1181D417267EE9D7007C1ED6 /* GreenBook */ = {
 			isa = PBXGroup;
 			children = (
-				1181D418267EE9D7007C1ED6 /* GreenBookApp.swift */,
-				1181D41A267EE9D7007C1ED6 /* ContentView.swift */,
+				11D0E57E268438D7000A70CA /* Models */,
+				11D0E57D268438CF000A70CA /* Data */,
+				11C9DE362682D17F0017512C /* View */,
+				11C9DE352682D1340017512C /* App */,
 				1181D41C267EE9DA007C1ED6 /* Assets.xcassets */,
 				1181D421267EE9DA007C1ED6 /* Persistence.swift */,
+				11C9DE392682DE5B0017512C /* Rubik-Medium.ttf */,
+				11C9DE3A2682DE5B0017512C /* Solway-Regular.ttf */,
 				1181D426267EE9DA007C1ED6 /* Info.plist */,
 				1181D423267EE9DA007C1ED6 /* GreenBook.xcdatamodeld */,
 				1181D41E267EE9DA007C1ED6 /* Preview Content */,
@@ -134,6 +148,39 @@
 				1181D43C267EE9DA007C1ED6 /* Info.plist */,
 			);
 			path = GreenBookUITests;
+			sourceTree = "<group>";
+		};
+		11C9DE352682D1340017512C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1181D418267EE9D7007C1ED6 /* GreenBookApp.swift */,
+				1181D41A267EE9D7007C1ED6 /* ContentView.swift */,
+				11C9DE3F2682E8340017512C /* OnboardingView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		11C9DE362682D17F0017512C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11C9DE372682D1970017512C /* GreenbookCardView.swift */,
+				11C9DE3D2682E37A0017512C /* StartButtonView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		11D0E57D268438CF000A70CA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		11D0E57E268438D7000A70CA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +286,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11C9DE3C2682DE5B0017512C /* Solway-Regular.ttf in Resources */,
+				11C9DE3B2682DE5B0017512C /* Rubik-Medium.ttf in Resources */,
 				1181D420267EE9DA007C1ED6 /* Preview Assets.xcassets in Resources */,
 				1181D41D267EE9DA007C1ED6 /* Assets.xcassets in Resources */,
 			);
@@ -268,7 +317,10 @@
 				1181D422267EE9DA007C1ED6 /* Persistence.swift in Sources */,
 				1181D41B267EE9D7007C1ED6 /* ContentView.swift in Sources */,
 				1181D425267EE9DA007C1ED6 /* GreenBook.xcdatamodeld in Sources */,
+				11C9DE3E2682E37A0017512C /* StartButtonView.swift in Sources */,
+				11C9DE382682D1970017512C /* GreenbookCardView.swift in Sources */,
 				1181D419267EE9D7007C1ED6 /* GreenBookApp.swift in Sources */,
+				11C9DE402682E8340017512C /* OnboardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
